@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "jwt.refresh-expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.refresh-expiration'"
+  },
+  {
+    "name": "jwt.access-expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.access-expiration'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "FRONTEND",
+    "type": "java.lang.String",
+    "description": "A description for 'FRONTEND'"
+  },
+  {
+    "name": "BACKEND",
+    "type": "java.lang.String",
+    "description": "A description for 'BACKEND'"
+  }
+]}
