@@ -64,7 +64,8 @@ public class User implements UserDetails {
     
     @Lob
     @Basic(fetch = FetchType.LAZY)
-    private byte[] profilePicByte;private String profilePicType;
+    private byte[] profilePicByte;
+    private String profilePicType;
     private String profilePicUrl;
     
     @Builder.Default
