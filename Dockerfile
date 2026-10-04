@@ -7,4 +7,4 @@ COPY . .
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
-CMD ["sh", "-c", "java -jar target/$(ls target | grep '\\.jar$' | head -n 1)"]
+CMD ["java", "-jar", "target/instepAuth-0.0.1-SNAPSHOT.war"]
